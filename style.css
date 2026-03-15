@@ -1,0 +1,81 @@
+body{
+font-family:Arial;
+text-align:center;
+color:white;
+background: linear-gradient(160deg, #4b0082, #ff0077);
+min-height:100vh;
+margin:0;
+}
+
+/* FUNDO LOGIN */
+
+.login-body{
+height:100vh;
+background:linear-gradient(160deg,#4b0082,#ff0077);
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+/* CAIXA LOGIN NEON */
+
+.login-box{
+background:#0a0014;
+padding:40px;
+border-radius:15px;
+box-shadow:0 0 20px #ff0077;
+}
+
+.login-box input{
+display:block;
+margin:10px auto;
+padding:10px;
+width:200px;
+background:transparent;
+border:none;
+border-bottom:2px solid #ff0077;
+color:white;
+}
+
+.login-box button{
+margin:5px;
+padding:10px;
+border:2px solid #ff0077;
+background:transparent;
+color:#ff0077;
+cursor:pointer;
+}
+
+/* PERFIS */
+
+.perfil-card{
+background:#1a001a;
+width:300px;
+margin:40px auto;
+padding:20px;
+border-radius:15px;
+}
+
+.perfil-card img{
+width:100%;
+border-radius:10px;
+}
+
+button{
+padding:10px;
+margin:5px;
+cursor:pointer;
+}
+
+/* CHAT */
+
+#chat{
+background:#1a001a;
+width:300px;
+height:300px;
+margin:20px auto;
+padding:10px;
+overflow:auto;
+border-radius:10px;
+box-shadow:0 0 15px #ff0077;
+}
